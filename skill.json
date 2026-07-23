@@ -1,0 +1,31 @@
+{
+  "name": "genpark-compliance-workflow-automation-engine-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Construction and financial regulatory compliance workflow automation engine.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "compliance",
+    "regulatory",
+    "audit-automation",
+    "workflow-engine"
+  ],
+  "inputs": {
+    "document_payload": {
+      "type": "object"
+    },
+    "regulatory_framework": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "compliance_status": {
+      "type": "string"
+    },
+    "violations": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
